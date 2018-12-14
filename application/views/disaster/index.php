@@ -27,7 +27,7 @@
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav ml-auto">
 		      <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Donasi</a>
+		      <a class="nav-item nav-link" href="<?php echo site_url('index.php/donasi/index')?>">Donasi</a>
 		      <a class="nav-item nav-link" href="<?php echo site_url('disaster/about')?>">About</a>
 		      <a href="<?php echo site_url('user/index')?>" class="nav-item btn btn-primary tombol" href="#">Join Us</a>
 		    </div>
@@ -88,7 +88,8 @@
 					<?php if (array_key_exists($i, $disaster)): ?>
 						<?php $d = $disaster[$i]?>
 						<div class="col-md-4">
-							<div class="card mb-4 shadow-sm">
+							<a href="<?php echo site_url('donasi/index')?>" style="color: #000; text-decoration: none; ">
+								<div class="card mb-4 shadow-sm">
 								<!-- <img class="card-img-top" src="<?php echo base_url().'assets/img/'.$d->file_name?>" alt="" height="300px"> -->
 								<img src="<?php echo base_url()?>assets/img/gunung.jpg" class="img-fluid">
 								<div class="card-body">
@@ -104,6 +105,9 @@
 									</div>
 								</div>
 							</div>
+
+							</a>
+							
 						</div>
 					<?php endif ?>
 				<?php endfor ?>

@@ -10,9 +10,11 @@ class M_disaster extends CI_Model
 						->from('disaster')
 						->join('category','disaster.category_id = category.id')
 						->join('user s','s.id = disaster.user_id')
-						->limit(11)
+						->limit(8)
 						->get()
 						->result();
+
+
 	}
 
 	public function insert($data)

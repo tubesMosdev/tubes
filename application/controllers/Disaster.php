@@ -12,11 +12,13 @@ class Disaster extends CI_Controller
 
 	public function index()
 	{
+	
 		$this->load->model('m_disaster');
 
 		$disaster 			= $this->m_disaster->get_all();
 
 		$data['disaster']	= $disaster;
+
 
 		$this->load->view('disaster/index',$data);
 	}
