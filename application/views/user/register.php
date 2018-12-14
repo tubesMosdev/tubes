@@ -16,27 +16,15 @@
 
 	<!-- Navbar -->
 	
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<div class="container">
-		  <a class="navbar-brand" href="#">DONASIKU</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    <div class="navbar-nav ml-auto">
-		      <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Donasi</a>
-		      <a class="nav-item nav-link" href="#">About</a>
-		    </div>
-		  </div>
-		</div>
-	</nav>
+	<?php 
+		$this->load->view('template/nav');
+	 ?>
 
 	<!-- Akhir Navbar -->
 
 	<!-- Awal Form Login -->
-
-	<div id="wrapper">
+	<div class="container">
+		<div id="wrapper">
 		<h1 class="h3 mb-3 font-weight-normal">Register</h1>
 		<form action="<?php echo site_url('user/save')?>" method="post" class="form-signin">
 			<div class="row">
@@ -59,13 +47,23 @@
 			</div>
 			<hr class="mt-4 mb-4">
 			<button class="btn btn-lg btn-primary btn-block masuk">Submit</button>
+	
+
 		</form>
 	</div>
+	</div>
+	
 
 	    <!-- Akhir Form Login -->
-
+	
 	
 	<script src="<?php echo base_url()?>assets/js/jquery-3.3.1.min.js"></script>
 	<script src="<?php echo base_url()?>assets/libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url()?>assets/nas/js/jquery.min.js"></script>
+			<script src="<?php echo base_url()?>assets/nas/js/browser.min.js"></script>
+			<script src="<?php echo base_url()?>assets/nas/js/breakpoints.min.js"></script>
+			<script src="<?php echo base_url()?>assets/nas/js/util.js"></script>
+			<script src="<?php echo base_url()?>assets/nas/js/main.js"></script>
+
 </body>
 </html>

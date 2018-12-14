@@ -13,7 +13,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="index.html">Donate</a>
+				<a class="logo" href="<?php echo site_url('home/index')?>">Donate</a>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
@@ -24,7 +24,7 @@
 				<ul class="links">
 					<li><a href="<?php echo site_url('home/index')?>">Home</a></li>
 					<li><a href="<?php echo site_url('disaster/index')?>">Donasi</a></li>
-					<li><a href="<?php echo site_url('about/index')?>">About Us</a></li>
+					<li><a href="#about">About Us</a></li>
 					<li><a href="<?php echo site_url('user/index')?>">Join US</a></li>
 				</ul>
 			</nav>

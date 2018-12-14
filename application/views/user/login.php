@@ -16,21 +16,9 @@
 	
 	<!-- Navbar -->
 	
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<div class="container">
-		  <a class="navbar-brand" href="#">DONASIKU</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    <div class="navbar-nav ml-auto">
-		      <a class="nav-item nav-link active" href="<?php echo site_url('disaster/index')?>">Home<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Donasi</a>
-		      <a class="nav-item nav-link" href="#">About</a>
-		    </div>
-		  </div>
-		</div>
-	</nav>
+	<?php 
+		$this->load->view('template/nav');
+	 ?>
 
 	<!-- Akhir Navbar -->
 
@@ -57,9 +45,16 @@
 	</div>
 
 	    <!-- Akhir Form Login -->
+	
 
-
-	<script src="<?php echo base_url()?>assets/js/jquery-3.3.1.min.js"></script>
+<script src="<?php echo base_url()?>assets/js/jquery-3.3.1.min.js"></script>
 	<script src="<?php echo base_url()?>assets/libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url()?>assets/nas/js/jquery.min.js"></script>
+			<script src="<?php echo base_url()?>assets/nas/js/browser.min.js"></script>
+			<script src="<?php echo base_url()?>assets/nas/js/breakpoints.min.js"></script>
+			<script src="<?php echo base_url()?>assets/nas/js/util.js"></script>
+			<script src="<?php echo base_url()?>assets/nas/js/main.js"></script>
+
+
 </body>
 </html>

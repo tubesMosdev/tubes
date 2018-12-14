@@ -41,21 +41,21 @@
 	  </ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img src="<?php echo base_url()?>assets/img/sawah.png" class="card-img-top rounded-0">
+	      <img src="<?php echo base_url()?>assets/images/sawah.png" class="card-img-top rounded-0">
 	      <div class="carousel-caption d-none d-md-block">
 		    <h5>Donasi</h5>
 		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia qui quasi, eligendi reiciendis, molestias obcaecati voluptatibus laboriosam ex, libero totam distinctio voluptatum nemo, explicabo ut. Voluptatibus doloremque nulla consequuntur, nemo.</p>
 		  </div>
 	    </div>
 	    <div class="carousel-item">
-	      <img src="<?php echo base_url()?>assets/img/sawah.png" class="card-img-top rounded-0">
+	      <img src="<?php echo base_url()?>assets/images/sawah.png" class="card-img-top rounded-0">
 	      <div class="carousel-caption d-none d-md-block">
 		    <h5>Donasi</h5>
 		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia qui quasi, eligendi reiciendis, molestias obcaecati voluptatibus laboriosam ex, libero totam distinctio voluptatum nemo, explicabo ut. Voluptatibus doloremque nulla consequuntur, nemo.</p>
 		  </div>
 	    </div>
 	    <div class="carousel-item">
-	      <img src="<?php echo base_url()?>assets/img/sawah.png" class="card-img-top rounded-0">
+	      <img src="<?php echo base_url()?>assets/images/sawah.png" class="card-img-top rounded-0">
 	      <div class="carousel-caption d-none d-md-block">
 		    <h5>Donasi</h5>
 		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia qui quasi, eligendi reiciendis, molestias obcaecati voluptatibus laboriosam ex, libero totam distinctio voluptatum nemo, explicabo ut. Voluptatibus doloremque nulla consequuntur, nemo.</p>
@@ -85,8 +85,8 @@
 						<div class="col-md-4">
 							<a href="<?php echo site_url('donasi/index')?>" style="color: #000; text-decoration: none; ">
 								<div class="card mb-4 shadow-sm">
-								<!-- <img class="card-img-top" src="<?php echo base_url().'assets/img/'.$d->file_name?>" alt="" height="300px"> -->
-								<img src="<?php echo base_url()?>assets/img/gunung.jpg" class="img-fluid">
+								<!-- <img class="card-img-top" src="<?php echo base_url().'assets/images/'.$d->file_name?>" alt="" height="300px"> -->
+								<img src="<?php echo base_url()?>assets/images/gunung.jpg" class="img-fluid">
 								<div class="card-body">
 									<h5 class="card-text">
 										<?php echo $d->title?>
@@ -122,7 +122,7 @@
 				?>
 				<div class="col-md-3">
 					<div class="card mb-4 shadow-sm">
-						<img src="<?php echo base_url()?>assets/img/gunung.jpg" class="img-fluid">
+						<img src="<?php echo base_url()?>assets/images/gunung.jpg" class="img-fluid">
 							<div class="card-body">
 								<div class="caption">
 									<h6 class="card-text">

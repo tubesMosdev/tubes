@@ -30,7 +30,7 @@
 			<dic class="row">
 				<div class="col-8" style="background-color: ">
 					<div class="card-img-top img-responsive" style="width: 100%;">
-						  <img src="<?php echo base_url()?>assets/img/gunung.jpg" alt="" class="img-responsive"><br><br>
+						  <img src="<?php echo base_url()?>assets/images/gunung.jpg" alt="" class="img-responsive"><br><br>
 						  <h5><b>Rumah roboh, akibat Gunung Meletus</b></h5><br>
 
 						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta perferendis, repellendus reprehenderit a ex labore nemo sunt mollitia quibusdam cupiditate atque officiis tempora, consectetur eligendi quia, molestias aspernatur quidem iste? Odit, inventore. Placeat sint, sit nesciunt deserunt! Fugit assumenda, minima velit voluptatibus est. Ut quasi, a iste suscipit perspiciatis quas!</p>
@@ -53,7 +53,7 @@
 		
 		<?php $this->load->view('template/footer'); ?>
 		
-			<script src="<?php echo base_url()?>assets/libs/js/jquery-3.3.1.min.js"></script>
+			<script src="<?php echo base_url()?>assets/js/jquery-3.3.1.min.js"></script>
 			<script src="<?php echo base_url()?>assets/libs/bootstrap/js/bootstrap.min.js"></script>	
 	
 

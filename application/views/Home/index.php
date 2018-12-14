@@ -8,20 +8,14 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="<?php echo base_url()?>assets/nas/css/main.css"">
+		<link rel="stylesheet" href="<?php echo base_url()?>assets/libs/bootstrap/css/bootstrap.min.css">
 	</head>
 	<body class="is-preload">
 
 		<?php 
 			$this->load->view('template/nav');
 		 ?>
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="<?php echo site_url('home/index')?>">Home</a></li>
-					<li><a href="<?php echo site_url('donasi/index')?>">Donasi</a></li>
-					<li><a href="<?php echo site_url('about/index')?>">About Us</a></li>
-					<li><a href="<?php echo site_url('user/index')?>">Join US</a></li>
-				</ul>
-			</nav>
+		
 
 		<!-- Banner -->
 			<section id="banner">
@@ -109,7 +103,7 @@
 			</section>
 
 		<!-- Testimonials -->
-			<section class="wrapper">
+			<section class="wrapper" id="about">
 				<div class="inner">
 					<header class="special">
 						<h2>About US</h2>
@@ -123,7 +117,7 @@
 								</blockquote>
 								<div class="author">
 									<div class="image">
-										<img src="<?php echo base_url()?>assets/img/nas.jpg" alt="" />
+										<img src="<?php echo base_url()?>assets/images/nas.jpg" alt="" />
 									</div>
 									<p class="credit">- <strong>Syamil</strong> <span>Programmer - MosDev Inc.</span></p>
 								</div>
@@ -136,7 +130,7 @@
 								</blockquote>
 								<div class="author">
 									<div class="image">
-										<img src="<?php echo base_url()?>assets/img/nas.jpg" alt="" />
+										<img src="<?php echo base_url()?>assets/images/nas.jpg" alt="" />
 									</div>
 									<p class="credit">- <strong>Nasution</strong> <span>Programmer - MosDev Inc.</span></p>
 								</div>
@@ -149,7 +143,7 @@
 								</blockquote>
 								<div class="author">
 									<div class="image">
-										<img src="<?php echo base_url()?>assets/img/nas.jpg" alt="" />
+										<img src="<?php echo base_url()?>assets/images/nas.jpg" alt="" />
 									</div>
 									<p class="credit">- <strong>Alif</strong> <span>Programmer - MosDev Inc.</span></p>
 								</div>
