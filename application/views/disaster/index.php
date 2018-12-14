@@ -12,33 +12,28 @@
 	<!-- My Css -->
 	<link rel="stylesheet" href="<?php echo base_url()?>assets/libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo base_url()?>application/views/disaster/style.css">
+
 	<!-- Akhir My Css -->
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/nas/css/main.css"">
 </head>
 <body>
+
+	
+
 	
 	<!-- Navbar -->
+
+	<div>
+		<?php 
+		$this->load->view('template/nav');
+	 ?>
 	
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<div class="container">
-		  <a class="navbar-brand" href="#">DONASIKU</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    <div class="navbar-nav ml-auto">
-		      <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="<?php echo site_url('index.php/donasi/index')?>">Donasi</a>
-		      <a class="nav-item nav-link" href="<?php echo site_url('disaster/about')?>">About</a>
-		      <a href="<?php echo site_url('user/index')?>" class="nav-item btn btn-primary tombol" href="#">Join Us</a>
-		    </div>
-		  </div>
-		</div>
-	</nav>
+	</div>
 
 	<!-- Akhir Navbar -->
 
 	<!-- Slider -->
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: ">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -153,18 +148,14 @@
 				<a href="#" class="btn btn-primary my-2">Lihat Lainnya</a>
 			</p>
 		</div>
-	<footer class="text-muted pt-4 pb-4 bg-light">
-		<div class="container">
-			<p class="float-right">
-				<a href="#"> Back To Top</a>
-			</p>
-			<p>
-				Album example is © Bootstrap, but please download and customize it for yourself!
-			</p>
-		</div>
-	</footer>
+	
+	<?php 
+		$this->load->view('template/footer');
+	 ?>
 	
 	<script src="<?php echo base_url()?>assets/js/jquery-3.3.1.min.js"></script>
 	<script src="<?php echo base_url()?>assets/libs/bootstrap/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>

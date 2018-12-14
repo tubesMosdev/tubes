@@ -17,71 +17,41 @@
 
 </head>
 <body>	
-			<!-- Navbar -->
-	
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<div class="container">
-		  <a class="navbar-brand" href="#">DONASIKU</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		    <div class="navbar-nav ml-auto">
-		      <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="<?php echo site_url('donasi/index')?>">Donasi</a>
-		      <a class="nav-item nav-link" href="<?php echo site_url('disaster/about')?>">About</a>
-		      <a href="<?php echo site_url('user/index')?>" class="nav-item btn btn-primary tombol" href="#">Join Us</a>
-		    </div>
-		  </div>
-		</div>
-	</nav>
-
-	<!-- Akhir Navbar -->
+		<?php 
+			$this->load->view('template/nav');
+		 ?>
 
 		<br><br>
 
 
 		
 		<div class="container">
-			<h1>Bayi Kembar Yatim Piatu Tanpa Kerabat</h1><br>
+			<h2><b>Rumah roboh, akibat Gunung Meletus</b></h2><br>
 			<dic class="row">
 				<div class="col-8" style="background-color: ">
-					<div class="card-img-top img-responsive" style="width: 18rem;">
-						  <img src="<?php echo base_url()?>assets/img/bayi.jpg" alt="" class="img-responsive"><br><br>
-						  <h5>Bayir Kembar Asal Jogja ini Ditemukan dekat tong sampah</h5><br><br>
-							
+					<div class="card-img-top img-responsive" style="width: 100%;">
+						  <img src="<?php echo base_url()?>assets/img/gunung.jpg" alt="" class="img-responsive"><br><br>
+						  <h5><b>Rumah roboh, akibat Gunung Meletus</b></h5><br>
 
-
-					</div>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta perferendis, repellendus reprehenderit a ex labore nemo sunt mollitia quibusdam cupiditate atque officiis tempora, consectetur eligendi quia, molestias aspernatur quidem iste? Odit, inventore. Placeat sint, sit nesciunt deserunt! Fugit assumenda, minima velit voluptatibus est. Ut quasi, a iste suscipit perspiciatis quas!</p>
+			</div>
 				</div>
 
 				<div class="col-4" style="background-color: ">
-					<h2 class="text-center">Bantuan Terkumpul</h2>
-					<h4>Pangan</h4>
-					<div class="progress">
-					  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="30"></div>
-					</div>
-					<h4>Sembako</h4>
-					<div class="progress">
-					  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="30"></div>
-					</div>
-					<h4>Pakaian</h4>
-					<div class="progress">
-					  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="30"></div>
-					</div>
-					<h4>Obat-obatan</h4>
-					<div class="progress">
-					  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="30"></div>
-					</div> <br>
+					<h3 class="text-center"><b>Bantuan Terkumpul</b></h3>
+					
+					<div class="col btn-warning" style="padding:2%; background-color: #F1F3F4;" >...........Barang</div>
 
-
-
+					<br>
 					<?php echo anchor(site_url('donasi/doDonasi'),'Mulai Donasi', 'class="btn btn-primary"'); ?>
 
 
 				</div>
 			</dic>
 		</div>
+			<br><br>
+		
+		<?php $this->load->view('template/footer'); ?>
 		
 			<script src="<?php echo base_url()?>assets/libs/js/jquery-3.3.1.min.js"></script>
 			<script src="<?php echo base_url()?>assets/libs/bootstrap/js/bootstrap.min.js"></script>	
