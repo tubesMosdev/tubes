@@ -40,7 +40,7 @@
 				<div class="col-4" style="background-color: ">
 					<h3 class="text-center"><b>Bantuan Terkumpul</b></h3>
 					
-					<div class="col btn-warning" style="padding:2%; background-color: #F1F3F4;" >...........Barang</div>
+					<div class="col btn-warning text-center" style="padding:2%; background-color: #F1F3F4;" ><b>455 </b> Barang</div>
 
 					<br>
 					<?php echo anchor(site_url('donasi/doDonasi'),'Mulai Donasi', 'class="btn btn-primary"'); ?>
